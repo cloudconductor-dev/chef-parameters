@@ -1,0 +1,19 @@
+{
+  "setup": {
+  },
+  "deploy": {
+    "web": {
+      "type": "apache"
+    },
+    "application": {
+      "default": {
+        "type": "java"
+      }
+    },
+    "database": {
+      "type": "postgresql",
+      "root_username": "postgres",
+      "root_password": "T6YgSkTT6NcvQhQx"
+    }
+  }
+}

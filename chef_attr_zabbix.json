@@ -1,0 +1,14 @@
+{
+  "setup": {
+    "postgresql": {
+      "version": "9.3",
+      "enable_pgdg_yum": true,
+      "initdb_locale": "no_locale",
+      "password": {
+        "postgres": "eKgzpUW0p87WkGGF"
+      }
+    }
+  },
+  "deploy": {
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "setup": [
+    "recipe[iptables::disabled]",
+    "recipe[selinux::disabled]",
+    "recipe[apache2]",
+    "recipe[apache2::proxy]",
+    "recipe[apache2::proxy_http]",
+    "recipe[cc-zabbix]",
+    "recipe[cc-nsupdate]"
+  ],
+  "configure": [
+  ],
+  "deploy": [
+    "recipe[cc-deploy::reverse_proxy]"
+  ],
+  "undeploy": [
+  ]
+}

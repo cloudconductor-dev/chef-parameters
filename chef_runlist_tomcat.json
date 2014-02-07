@@ -1,0 +1,16 @@
+{
+  "setup": [
+    "recipe[iptables::disabled]",
+    "recipe[selinux::disabled]",
+    "recipe[tomcat]",
+    "recipe[cc-zabbix]",
+    "recipe[cc-nsupdate]"
+  ],
+  "configure": [
+  ],
+  "deploy": [
+    "recipe[cc-deploy::application]"
+  ],
+  "undeploy": [
+  ]
+}

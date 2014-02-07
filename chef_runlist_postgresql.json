@@ -1,0 +1,16 @@
+{
+  "setup" : [
+    "recipe[iptables::disabled]",
+    "recipe[selinux::disabled]",
+    "recipe[postgresql::server]",
+    "recipe[cc-zabbix]",
+    "recipe[cc-nsupdate]"
+  ],
+  "configure": [
+  ],
+  "deploy": [
+    "recipe[cc-deploy::database]"
+  ],
+  "undeploy": [
+  ]
+}

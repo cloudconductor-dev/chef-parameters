@@ -1,0 +1,20 @@
+{
+  "setup": [
+    "recipe[iptables::disabled]",
+    "recipe[selinux::disabled]",
+    "recipe[cc-bind]",
+    "recipe[cc-nsupdate]",
+    "recipe[cc-zabbix]",
+    "recipe[cc-zabbix::server]",
+    "recipe[cc-zabbix::web]",
+    "recipe[cc-zabbix::import_templates]",
+    "recipe[cc-zabbix::create_hostgroups]",
+    "recipe[cc-zabbix::create_actions]"
+  ],
+  "configure": [
+  ],
+  "deploy": [
+  ],
+  "undeploy": [
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "setup": {
+    "postgresql": {
+      "version": "9.3",
+      "password": {
+        "postgres": "T6YgSkTT6NcvQhQx"
+      },
+      "enable_pgdg_yum": "true",
+      "config": {
+        "ssl": "false",
+        "listen_addresses": "*"
+      },
+      "pg_hba": [
+        {
+          "type": "host",
+          "db": "all",
+          "user": "all",
+          "addr": "0.0.0.0/0",
+          "method": "md5"
+        },
+        {
+          "type": "host",
+          "db": "all",
+          "user": "all",
+          "addr": "::1/128",
+          "method": "md5"
+        }
+      ]
+    }
+  },
+  "deploy": {
+    "web": {
+      "type": "apache"
+    },
+    "application": {
+      "default": {
+        "type": "java"
+      }
+    },
+    "database": {
+      "type": "postgresql",
+      "root_username": "postgres",
+      "root_password": "T6YgSkTT6NcvQhQx"
+    }
+  }
+}
