@@ -2,6 +2,7 @@
   "setup": [
     "recipe[iptables::disabled]",
     "recipe[selinux::disabled]",
+    "recipe[lxmx_hostname]",
     "recipe[apache2]",
     "recipe[apache2::mod_proxy]",
     "recipe[apache2::mod_proxy_http]",
