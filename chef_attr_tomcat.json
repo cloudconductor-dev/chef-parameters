@@ -1,5 +1,8 @@
 {
   "setup": {
+    "tomcat": {
+      "keytool":"/usr/lib/jvm/java-1.6.0/bin/keytool"
+    }
   },
   "deploy": {
     "web": {
