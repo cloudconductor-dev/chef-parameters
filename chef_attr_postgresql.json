@@ -29,6 +29,9 @@
     }
   },
   "deploy": {
+    "postgresql": {
+      "version": "9.3"
+    },
     "web": {
       "type": "apache"
     },
