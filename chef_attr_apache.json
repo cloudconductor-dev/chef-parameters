@@ -12,7 +12,7 @@
       "proxy": {
         "allow_from": "all"
       }
-    }
+    },
     "web": {
       "type": "apache"
     },
