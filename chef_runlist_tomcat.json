@@ -2,6 +2,7 @@
   "setup": [
     "recipe[iptables::disabled]",
     "recipe[selinux::disabled]",
+    "recipe[lxmx_hostname]",
     "recipe[tomcat]",
     "recipe[cc-zabbix]",
     "recipe[cc-nsupdate]"
