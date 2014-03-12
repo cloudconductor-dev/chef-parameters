@@ -10,6 +10,7 @@
   "configure": [
   ],
   "deploy": [
+    "recipe[postgresql::client]",
     "recipe[cc-deploy::application]"
   ],
   "undeploy": [
