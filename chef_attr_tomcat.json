@@ -13,10 +13,12 @@
         "type": "java"
       }
     },
-    "database": {
-      "type": "postgresql",
-      "root_username": "postgres",
-      "root_password": "T6YgSkTT6NcvQhQx"
+    "cc-deploy": {
+      "database": {
+        "type": "postgresql",
+        "root_username": "postgres",
+        "root_password": "T6YgSkTT6NcvQhQx"
+      }
     }
   }
 }
