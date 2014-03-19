@@ -10,7 +10,8 @@
     "recipe[cc-zabbix::web]",
     "recipe[cc-zabbix::import_templates]",
     "recipe[cc-zabbix::create_hostgroups]",
-    "recipe[cc-zabbix::create_actions]"
+    "recipe[cc-zabbix::create_actions]",
+    "recipe[squid]"
   ],
   "configure": [
   ],
