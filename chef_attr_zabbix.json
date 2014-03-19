@@ -1,5 +1,9 @@
 {
   "setup": {
+    "squid": {
+      "cache_size": 1,
+      "cache_mem": 0
+    },
     "postgresql": {
       "version": "9.3",
       "enable_pgdg_yum": true,
