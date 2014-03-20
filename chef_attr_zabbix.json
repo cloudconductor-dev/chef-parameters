@@ -1,8 +1,8 @@
 {
   "setup": {
     "squid": {
-      "cache_size": 1,
-      "cache_mem": 0
+      "cache_size": "100 4 16\nshutdown_lifetime 0 seconds\n#",
+      "cache_mem": 32
     },
     "postgresql": {
       "version": "9.3",
