@@ -9,7 +9,7 @@
       "version": "9.3",
       "enable_pgdg_yum": "true",
       "client": {
-        "packages": ["postgresql93-jdbc"]
+        "packages": ["postgresql-jdbc"]
       }
     },
     "web": {
